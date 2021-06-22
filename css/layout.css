@@ -285,6 +285,13 @@ ul#nav li.current a { color: #F06000; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
+#skillss {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
 .bars {
 	width: 95%;
 	float: left;
@@ -326,12 +333,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .photoshop {
-  	width: 60%;
+  	width: 50%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 55%;
+  	width: 45%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
@@ -341,12 +348,32 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: wordpress 2s ease;
 }
 .css {
-  	width: 90%;
+  	width: 95%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
+.java {
+   width: 95%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.c {
+   width: 90%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.cpp {
+   width: 70%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
+.python {
+   width: 70%;
+   -moz-animation: css 2s ease;
+   -webkit-animation: css 2s ease;
+}
 .html5 {
-  	width: 80%;
+  	width: 95%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
