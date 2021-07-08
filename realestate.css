@@ -391,11 +391,7 @@ a:link, a:visited {
 
 }
 
-@media screen and (max-width: 414px) and (min-width: 0px) {
-
-    /* #about-me-section {
-        height: 70vh;
-    } */
+/* @media screen and (max-width: 414px) and (min-width: 0px) {
 
     .head-contain1 {
         font-size: 100px;
@@ -428,7 +424,7 @@ a:link, a:visited {
         height: 6em;
     }
 
-}
+} */
 
 
 
