@@ -393,11 +393,6 @@ a:link, a:visited {
 
 /* @media screen and (max-width: 414px) and (min-width: 0px) {
 
-    .head-contain1 {
-        font-size: 100px;
-        flex-wrap: nowrap;
-    }
-
     .head-item1 , .head-item2 , .head-item4 , .head-item5 {
         margin: 0.2em;
         padding: 0.2em;
