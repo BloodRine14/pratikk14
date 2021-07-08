@@ -1,31 +1,31 @@
 @font-face {
     font-family: myHeadFont;
-    src: url(/fonts/HelloAvocado.ttf);
+    src: url(/pratikk14/fonts/HelloAvocado.ttf);
 }
 
 @font-face {
     font-family: myabout;
-    src: url(/fonts/Christian\ Heedlay.ttf);
+    src: url(/pratikk14/fonts/Christian\ Heedlay.ttf);
 }
 
 @font-face {
     font-family: shadowdead;
-    src: url(../mysite/fonts/Shadow\ of\ the\ Deads.ttf);
+    src: url(/pratikk14/fonts/Shadow\ of\ the\ Deads.ttf);
 }
 
 @font-face {
     font-family: boardingpersonal;
-    src: url(../mysite/fonts/Boarding\ PersonalUse.ttf);
+    src: url(/pratikk14/fonts/Boarding\ PersonalUse.ttf);
 }
 
 @font-face {
     font-family: please;
-    src: url(/fonts/please.ttf);
+    src: url(/pratikk14/fonts/please.ttf);
 }
 /* * { border: 1px solid red; } */
 
 html {
-    background:  url(/images/lubo.jpg) no-repeat center center fixed;
+    background:  url(/pratikk14/images/lubo.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
