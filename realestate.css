@@ -391,7 +391,7 @@ a:link, a:visited {
 
 }
 
-@media screen and (max-width: 414px) and (min-width: 413.98px) {
+@media screen and (max-width: 414.98px) and (min-width: 414px) {
 
     .head-contain1 {
         font-size: 100px;
