@@ -1,0 +1,450 @@
+@font-face {
+    font-family: myHeadFont;
+    src: url(/Pratik/Programming/Front-End/15062021/fonts/HelloAvocado.ttf);
+}
+
+@font-face {
+    font-family: myabout;
+    src: url(../mysite/fonts/Christian\ Heedlay.ttf);
+}
+
+@font-face {
+    font-family: shadowdead;
+    src: url(../mysite/fonts/Shadow\ of\ the\ Deads.ttf);
+}
+
+@font-face {
+    font-family: boardingpersonal;
+    src: url(../mysite/fonts/Boarding\ PersonalUse.ttf);
+}
+
+@font-face {
+    font-family: please;
+    src: url(../mysite/fonts/please.ttf);
+}
+/* * { border: 1px solid red; } */
+
+html {
+    background:  url(../mysite/images/lubo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-image: url(../mysite/images/lubo.jpg);
+    background-repeat: no-repeat; */
+    color: white;
+}
+
+
+/* HEADER */
+
+.head-contain {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    /* border-style: outset;
+    border-left-color: black;
+    border-right-color: black;
+    border-top-color: white;
+    border-bottom-color: white; */
+    /* width: 10.8em; */
+    color: white;
+    font-family: shadowdead;
+    flex-wrap: wrap;
+    /* background-image: linear-gradient(to right, black , #ff3333, black); */
+    /* background-image: url(../mysite/images/headerbg.jpg); */
+}
+
+.head-contain1 {
+    display: flex;
+    font-size: 20px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.head-item1 {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.head-item2 {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.head-item3 {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.head-item4 {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.head-item5 {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.head-contain2 {
+    display: flex;
+    font-size: 20px;
+    margin-left: auto;
+    flex-grow: 0;
+}
+
+.head-item5 {
+    margin: 0.7em;
+    padding: 0.5em;
+}
+
+.head-item6 {
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 0.1em solid red;
+    background-color: black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+/*  */
+
+.about-me {
+    font-family: myabout;
+    color: white;
+}
+
+.about-me h3 {
+    font-family: myHeadFont;
+    color: #EFD8D8;
+}
+
+.mydp {
+    width: 8em;
+    height: 8em;
+}
+
+.mydp img {
+    width: 14em;
+    height: 14em;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(0px);
+}
+
+.myabout {
+    top: 6em;
+    left: 35em;
+}
+
+
+/* ABOUT ME SECTION*/
+
+#about-me-section {
+    height: 30em;
+    border: 0.2em solid white;
+    position: relative;
+}
+
+.myhandles {
+    position: absolute;
+    top: 4em;
+    left: 4em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.myhandles .myname {
+    font-family: myHeadFont;
+    font-size: 2.8ch;
+}
+
+.myhandles .mychar img{
+    width: 12em;
+    height: 12em;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(0px);
+}
+
+.myhandles .githubhandle img {
+    width: 4em;
+    height: 4em;
+}
+
+.myhandles .mynetworks img {
+    width: 2em;
+    height: 2em;
+}
+
+.aboutme {
+    position: absolute;
+    top: 4em;
+    left: 22em;
+}
+
+.aboutme .button-abtme {
+    font-family: myHeadFont;
+    font-size: 3ch;
+    color: red;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(0px);
+}
+
+
+.aboutme p {
+    font-family: please;
+    font-size: 3ch;
+    font-weight: 700;
+}
+
+/* SKILLS */
+
+#skills {
+    height: 30em;
+    border: 0.2em solid white;
+    position: relative;
+}
+
+.langskills {
+    position: absolute;
+    top: 0em;
+    left: 22em;
+}
+
+.langskills .button-skills {
+    font-family: myHeadFont;
+    font-size: 3.3ch;
+    color: red;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(0px);
+}
+
+.langlogos-s {
+    position: absolute;
+    top: 5em;
+    left: 22em;
+}
+
+.langlogos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.langlogos div img {
+    margin: 1em;
+    width: 8em;
+    height: 8em;
+}
+
+/* PROJECTS */
+
+#projects {
+    height: 60vh;
+    position: relative;
+}
+
+.projects-h {
+    position: absolute;
+    top: 0em;
+    left: 22em;
+}
+
+.projects-h .button-projects {
+    font-family: myHeadFont;
+    font-size: 3.3ch;
+    color: red;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(0px);
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+
+    /* #about-me-section {
+        height: 50em;
+    } */
+
+    .langskills {
+        left: 18em;
+    }
+
+    .langlogos-s {
+        left: 18em;
+    }
+
+    .langskills .button-skills  {
+        color: aqua;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 920px) {
+
+    /* #about-me-section {
+        height: 70vh;
+    } */
+
+    .langskills {
+        left: 16em;
+    }
+
+    .langlogos-s {
+        left: 16em;
+    }
+
+    .langskills .button-skills  {
+        color: yellow;
+    }
+}
+
+@media screen and (max-width: 920px) and (min-width: 830px) {
+
+    /* #about-me-section {
+        height: 70vh;
+    } */
+    .head-contain1 {
+        flex-wrap: wrap;
+    }
+
+    .langskills {
+        left: 10em;
+    }
+
+    .langlogos-s {
+        left: 10em;
+    }
+
+    .langskills .button-skills  {
+        color: pink;
+    }
+
+    
+}
+
+@media screen and (max-width: 830px) and (min-width: 0px) {
+
+    /* #about-me-section {
+        height: 70vh;
+    } */
+    .head-contain1 {
+        flex-wrap: wrap;
+    }
+
+    .langskills {
+        left: 1em;
+    }
+
+    .langlogos-s {
+        left: 1em;
+    }
+
+    .langskills .button-skills  {
+        color: pink;
+    }
+   
+}
+
+@media screen and (max-width: 770px) and (min-width: 702px) {
+
+    /* #about-me-section {
+        height: 70vh;
+    } */
+    
+    .aboutme {
+        left: 20em;
+    }
+
+}
+
+@media screen and (max-width: 702px) and (min-width: 644px) {
+
+    /* #about-me-section {
+        height: 70vh;
+    } */
+
+    .myhandles {
+        left: 2em;
+    }
+
+    .aboutme {
+        left: 16em;
+    }
+
+    .myhandles .mychar img{
+        width: 10em;
+        height: 10em;
+    }
+
+    .myhandles .githubhandle img {
+        width: 3em;
+        height: 3em;
+    }
+
+    .myhandles .mynetworks img {
+        width: 1.8em;
+        height: 1.8em;
+    }
+
+    .langlogos div img {
+        width: 6em;
+        height: 6em;
+    }
+
+}
+
+@media screen and (max-width: 414px) and (min-width: 0px) {
+
+    /* #about-me-section {
+        height: 70vh;
+    } */
+
+    .head-contain1 {
+        font-size: 12px;
+        flex-wrap: nowrap;
+    }
+
+    .head-item1 , .head-item2 , .head-item4 , .head-item5 {
+        margin: 0.2em;
+        padding: 0.2em;
+    }
+    
+   
+    .myhandles .mychar img{
+        width: 10em;
+        height: 10em;
+    }
+
+    .myhandles .githubhandle img {
+        width: 3em;
+        height: 3em;
+    }
+
+    .myhandles .mynetworks img {
+        width: 1.8em;
+        height: 1.8em;
+    }
+
+    .langlogos div img {
+        width: 6em;
+        height: 6em;
+    }
+
+}
+
+
+
+
+
+
+
+
