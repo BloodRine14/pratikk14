@@ -282,10 +282,10 @@ a:link, a:visited {
     .langlogos-s {
         left: 18em;
     }
-
+/* 
     .langskills .button-skills  {
         color: aqua;
-    }
+    } */
 }
 
 @media screen and (max-width: 1000px) and (min-width: 920px) {
@@ -302,9 +302,6 @@ a:link, a:visited {
         left: 16em;
     }
 
-    .langskills .button-skills  {
-        color: yellow;
-    }
 }
 
 @media screen and (max-width: 920px) and (min-width: 830px) {
@@ -322,10 +319,6 @@ a:link, a:visited {
 
     .langlogos-s {
         left: 10em;
-    }
-
-    .langskills .button-skills  {
-        color: pink;
     }
 
     
@@ -348,10 +341,6 @@ a:link, a:visited {
         left: 1em;
     }
 
-    .langskills .button-skills  {
-        color: pink;
-    }
-   
 }
 
 @media screen and (max-width: 770px) and (min-width: 702px) {
