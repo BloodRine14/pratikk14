@@ -25,7 +25,7 @@
 /* * { border: 1px solid red; } */
 
 html {
-    background:  url(../images/lubo.jpg) no-repeat center center fixed;
+    background:  url(/images/lubo.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
