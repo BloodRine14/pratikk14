@@ -1,11 +1,11 @@
 @font-face {
     font-family: myHeadFont;
-    src: url(/Pratik/Programming/Front-End/15062021/fonts/HelloAvocado.ttf);
+    src: url(/fonts/HelloAvocado.ttf);
 }
 
 @font-face {
     font-family: myabout;
-    src: url(../mysite/fonts/Christian\ Heedlay.ttf);
+    src: url(/fonts/Christian\ Heedlay.ttf);
 }
 
 @font-face {
@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: please;
-    src: url(../mysite/fonts/please.ttf);
+    src: url(/fonts/please.ttf);
 }
 /* * { border: 1px solid red; } */
 
