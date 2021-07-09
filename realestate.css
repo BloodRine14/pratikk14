@@ -403,7 +403,16 @@ a:link, a:visited {
         padding: 0.2em;
     }
     
-   
+    #about-me-section {
+        height: 50em;
+    }
+    
+    .myhandles {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
     .myhandles .mychar img{
         width: 10em;
         height: 10em;
