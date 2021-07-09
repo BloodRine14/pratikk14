@@ -31,14 +31,11 @@ html {
     -o-background-size: cover;
     background-size: cover;
     overflow: auto;
-    height: 100vh;
 }
 
 body {
     margin: 0px;
     padding: 0px;
-    overflow: auto;
-    height: 100%;
     box-sizing: border-box;
     /* background-image: url(../mysite/images/lubo.jpg);
     background-repeat: no-repeat; */
