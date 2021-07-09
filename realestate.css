@@ -394,7 +394,7 @@ a:link, a:visited {
 @media screen and (max-width: 414.98px) {
 
     .head-contain1 {
-        font-size: 10px;
+        font-size: 14px;
         flex-wrap: nowrap;
     }
 
@@ -404,7 +404,8 @@ a:link, a:visited {
     }
 
     #about-me-section {
-        height: 50em;
+        border: initial;
+        height: 40em;
         display: flex;
         flex-direction: column;
     }
@@ -413,8 +414,24 @@ a:link, a:visited {
         position: relative;
         top: initial;
         left: initial;
+        margin-top: 1em;
     }
     
+    .myhandles .mychar img{
+        width: 9em;
+        height: 9em;
+    }
+
+    .myhandles .githubhandle img {
+        width: 3em;
+        height: 3em;
+    }
+
+    .myhandles .mynetworks img {
+        width: 1.8em;
+        height: 1.8em;
+    }
+
     .aboutme {
         position: relative;
         top: initial;
@@ -431,26 +448,35 @@ a:link, a:visited {
         margin: 0.5em;
         font-size: 2.5ch;
     }
+
+    #skills {
+        border: initial;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .langskills {
+        position: relative;
+        top: initial;
+        left: initial;
+    }
     
-    .myhandles .mychar img{
-        width: 10em;
-        height: 10em;
+    .langskills .button-skills {
+        margin-left: 0.5em;
+        font-size: 2.5ch;
     }
 
-    .myhandles .githubhandle img {
-        width: 3em;
-        height: 3em;
-    }
-
-    .myhandles .mynetworks img {
-        width: 1.8em;
-        height: 1.8em;
+    .langlogos-s {
+        position: relative;
+        top: initial;
+        left: initial;
     }
 
     .langlogos div img {
-        width: 6em;
-        height: 6em;
+        width: 4em;
+        height: 4em;
     }
+
 
 }
 
