@@ -251,27 +251,6 @@ a:link, a:visited {
     height: 8em;
 }
 
-/* PROJECTS */
-
-#projects {
-    height: 60vh;
-    position: relative;
-}
-
-.projects-h {
-    position: absolute;
-    top: 0em;
-    left: 22em;
-}
-
-.projects-h .button-projects {
-    font-family: myHeadFont;
-    font-size: 3.3ch;
-    color: red;
-    background-color: rgba(255, 255, 255, .15);  
-    backdrop-filter: blur(0px);
-}
-
 
 @media screen and (max-width: 1200px) and (min-width: 1000px) {
 
