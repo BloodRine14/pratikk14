@@ -402,15 +402,34 @@ a:link, a:visited {
         margin: 0.2em;
         padding: 0.2em;
     }
-    
+
     #about-me-section {
         height: 50em;
+        display: flex;
+        flex-direction: column;
     }
-    
+
     .myhandles {
         position: relative;
-        margin-left: auto;
-        margin-right: auto;
+        top: initial;
+        left: initial;
+    }
+    
+    .aboutme {
+        position: relative;
+        top: initial;
+        left: initial;
+    }
+
+    .aboutme .button-abtme {
+        margin-top: 1.5em;
+        margin-left: 0.5em;
+        font-size: 2.5ch;
+    }
+
+    .aboutme p {
+        margin: 0.5em;
+        font-size: 2.5ch;
     }
     
     .myhandles .mychar img{
