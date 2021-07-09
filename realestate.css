@@ -198,8 +198,9 @@ a:link, a:visited {
 }
 
 .aboutme .button-abtme {
-    font-family: myHeadFont;
+    font-family: please;
     font-size: 3ch;
+    font-weight: 600;
     color: red;
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(0px);
@@ -227,8 +228,9 @@ a:link, a:visited {
 }
 
 .langskills .button-skills {
-    font-family: myHeadFont;
+    font-family: please;
     font-size: 3.3ch;
+    font-weight: 600;
     color: red;
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(0px);
