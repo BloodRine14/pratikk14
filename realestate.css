@@ -455,6 +455,7 @@ a:link, a:visited {
 
     #skills {
         border: initial;
+        height: 19em;
         display: flex;
         flex-direction: column;
     }
