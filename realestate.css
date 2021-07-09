@@ -26,11 +26,7 @@
 
 html {
     background:  url(https://bloodrine14.github.io/pratikk14/images/lubo.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    overflow: auto;
 }
 
 body {
