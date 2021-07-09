@@ -237,12 +237,13 @@ a:link, a:visited {
 }
 
 .langlogos-s {
-    position: absolute;
-    top: 5em;
-    left: 22em;
+    
 }
 
 .langlogos {
+    position: absolute;
+    top: 5em;
+    left: 22em;
     display: flex;
     flex-wrap: wrap;
 }
@@ -453,7 +454,7 @@ a:link, a:visited {
         font-size: 2.5ch;
     }
 
-    .langlogos-s {
+    .langlogos {
         position: relative;
         top: initial;
         left: initial;
