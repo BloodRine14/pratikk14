@@ -302,7 +302,7 @@ a:link, a:visited {
 
 } */
 
-@media screen and (max-width: 736.98) and (min-width: 415px) {
+@media screen and (max-width: 736) and (min-width: 414px) and (orientation: landscape) {
 
     body {
         background-position: initial;
@@ -397,7 +397,7 @@ a:link, a:visited {
 
 }
 
-@media screen and (max-width: 414.98px) {
+@media screen and (max-width: 414px) {
 
     body {
         background-position: initial;
