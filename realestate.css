@@ -245,11 +245,7 @@ a:link, a:visited {
 }
 
 
-@media screen and (max-width: 1200px) and (min-width: 1000px) {
-
-    /* #about-me-section {
-        height: 50em;
-    } */
+/* @media screen and (max-width: 1200px) and (min-width: 1000px) {
 
     .langskills {
         left: 18em;
@@ -304,10 +300,10 @@ a:link, a:visited {
         left: 1em;
     }
 
-}
+} */
 
 @media screen and (max-width: 736.98) and (min-width: 415px) {
-    
+
     body {
         background-position: initial;
         background-attachment: initial;
