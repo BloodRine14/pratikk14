@@ -389,7 +389,6 @@ a:link, a:visited {
         position: relative;
         top: initial;
         left: initial;
-        flex-direction: row;
     }
 
     .langlogos div img {
@@ -465,8 +464,6 @@ a:link, a:visited {
     #skills {
         border: initial;
         height: 19em;
-        display: flex;
-        flex-direction: column;
     }
 
     .langskills {
