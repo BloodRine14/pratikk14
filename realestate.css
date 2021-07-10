@@ -230,10 +230,6 @@ a:link, a:visited {
     backdrop-filter: blur(0px);
 }
 
-.langlogos-s {
-    
-}
-
 .langlogos {
     position: absolute;
     top: 5em;
@@ -262,17 +258,10 @@ a:link, a:visited {
     .langlogos-s {
         left: 18em;
     }
-/* 
-    .langskills .button-skills  {
-        color: aqua;
-    } */
+
 }
 
 @media screen and (max-width: 1000px) and (min-width: 920px) {
-
-    /* #about-me-section {
-        height: 70vh;
-    } */
 
     .langskills {
         left: 16em;
@@ -286,9 +275,6 @@ a:link, a:visited {
 
 @media screen and (max-width: 920px) and (min-width: 830px) {
 
-    /* #about-me-section {
-        height: 70vh;
-    } */
     .head-contain1 {
         flex-wrap: wrap;
     }
@@ -306,9 +292,6 @@ a:link, a:visited {
 
 @media screen and (max-width: 830px) and (min-width: 0px) {
 
-    /* #about-me-section {
-        height: 70vh;
-    } */
     .head-contain1 {
         flex-wrap: wrap;
     }
@@ -323,9 +306,13 @@ a:link, a:visited {
 
 }
 
-/* @media screen and (max-width: 736.98) and (min-width: 415px) {
-
-} */
+@media screen and (max-width: 736.98) and (min-width: 415px) {
+    .langlogos {
+        position: relative;
+        top: initial;
+        left: initial;
+    }
+}
 
 @media screen and (max-width: 414.98px) {
 
