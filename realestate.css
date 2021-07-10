@@ -302,7 +302,7 @@ a:link, a:visited {
 
 } */
 
-/* @media screen and (max-device-width: 736) and (orientation: landscape) {
+@media screen and (max-width: 768) and (orientation: landscape) {
 
     body {
         background-position: initial;
@@ -389,6 +389,7 @@ a:link, a:visited {
         position: relative;
         top: initial;
         left: initial;
+        flex-direction: row;
     }
 
     .langlogos div img {
@@ -396,7 +397,7 @@ a:link, a:visited {
         height: 4em;
     }
 
-} */
+}
 
 @media screen and (max-width: 414px) and (orientation: portrait){
 
