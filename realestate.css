@@ -327,13 +327,6 @@ a:link, a:visited {
 
 } */
 
-@media only screen and (orientation:portrait){
-    body {
-      height: 100vw;
-      transform: rotate(90deg);
-    }
-  }
-
 @media screen and (max-width: 414.98px) {
 
     body {
